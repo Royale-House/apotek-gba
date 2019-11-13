@@ -236,7 +236,7 @@
 				-->
 				<ul style="">
 					<li class="open">
-						<a href="#" title="Dashboard" class="active">
+						<a href="<?=base_url()?>home" title="Dashboard" class="active">
 							<i class="fa fa-lg fa-fw fa-home"></i>
 							<span class="menu-item-parent">Dashboard </span>
 						</a>
@@ -247,40 +247,34 @@
 						<b class="collapse-sign"><em class="fa fa-plus-square-o"></em></b></a>
 						<ul>
 							<li>
-								<a href="#" title="App Layouts">
+								<a href="<?=base_url()?>suplier" title="App Layouts">
 									<i class="fa fa-lg fa-fw fa-gear"></i>Data Suplier
 								</a>
 							</li>
 							<li>
-								<a href="#" title="App Settings">
+								<a href="<?=base_url()?>gudang" title="App Settings">
 									<i class="fa fa-lg fa-fw fa-cube"></i>Data Gudang 
 								</a>
 							</li>
 							<li>
-								<a href="#" title="App Layouts">
+								<a href="<?=base_url()?>golObat" title="App Layouts">
 									<i class="fa fa-lg fa-fw fa-gear"></i>Data Golongan Obat
 								</a>
 							</li>
 							<li>
-								<a href="#" title="App Settings">
+								<a href="<?=base_url()?>kategoriObat" title="App Settings">
 									<i class="fa fa-lg fa-fw fa-cube"></i>Data Kategori Obat
 								</a>
 							</li>
 
 							<li>
-								<a href="#" title="App Layouts">
+								<a href="<?=base_url()?>obat" title="App Layouts">
 									<i class="fa fa-lg fa-fw fa-gear"></i>Data Obat
 								</a>
 							</li>
-
 							<li>
-								<a href="#" title="App Settings">
-									<i class="fa fa-lg fa-fw fa-cube"></i>Data Stok Gudang
-								</a>
-							</li>
-							<li>
-								<a href="#" title="App Settings">
-									<i class="fa fa-lg fa-fw fa-cube"></i>Data Stok Etalase
+								<a href="<?=base_url()?>etalase" title="App Settings">
+									<i class="fa fa-lg fa-fw fa-cube"></i>Data Etalase
 								</a>
 							</li>
 						</ul>
