@@ -1,0 +1,47 @@
+.column_number{
+	text-align:right;
+	width:10%;
+}
+
+.column_text{
+	text-align:left;
+	width:50%;
+}
+
+.st{
+	margin-bottom: -50px; 
+	text-align:center;
+}
+
+.column_right{
+	text-align:right;
+	width:7%;
+}
+.column_left{
+	text-align:left;
+}
+.column_center{
+	text-align:center;
+}
+
+#link{
+	color:BLUE;
+	cursor:pointer;
+}
+
+.btnAction{
+	float:right;
+	width:300px;
+}
+
+.buton{
+	margin-left:-30px; 
+	width:70px; 
+	height:34px;
+}
+
+#right{
+	float:right;
+}
+
+

@@ -1,0 +1,11 @@
+.number{
+	text-align:center;
+}
+.float{
+	text-align:right;
+}
+#headerfixed{
+	position:fixed;
+	width:100%;
+	z-index:100;
+}
