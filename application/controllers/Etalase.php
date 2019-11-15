@@ -8,7 +8,7 @@ class Etalase extends CI_Controller {
 	{
 		
 		
-        $return = array();
+       	$return = array();
         $data['menu']='Home';
         $data['menuParent']='Stok Etalase';
         $this->temppage->render('EtalaseView',$data);

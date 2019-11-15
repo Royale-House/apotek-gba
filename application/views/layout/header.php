@@ -285,7 +285,7 @@
 						<b class="collapse-sign"><em class="fa fa-plus-square-o"></em></b></a>
 						<ul>
 							<li>
-								<a href="#" title="App Layouts">
+								<a href="<?=base_url()?>PembelianObat">
 									<i class="fa fa-lg fa-fw fa-gear"></i>Pembelian Obat
 								</a>
 							</li>
