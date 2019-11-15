@@ -30,7 +30,137 @@
 		
 		<!-- widget grid -->
 		<section id="widget-grid" class="">
+		<!-- row -->
+			<div class="row">
 		
+				<!-- NEW WIDGET START -->
+				<article class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		<!-- Widget ID (each widget will need unique ID)-->
+					<div class="jarviswidget jarviswidget-color-darken" id="wid-id-1" data-widget-editbutton="false" 
+						data-widget-collapsed="true">
+						<!-- widget options:
+						usage: <div class="jarviswidget" id="wid-id-0" data-widget-editbutton="false">
+		
+						data-widget-colorbutton="false"
+						data-widget-editbutton="false"
+						data-widget-togglebutton="false"
+						data-widget-deletebutton="false"
+						data-widget-fullscreenbutton="false"
+						data-widget-custombutton="false"
+						data-widget-collapsed="true"
+						data-widget-sortable="false"
+		
+						-->
+						<header>
+							<span class="widget-icon"> <i class="fa fa-table"></i> </span>
+							<h2>Tambah Data Obat </h2>
+		
+						</header>
+		
+							<!-- widget content -->
+							<div class="widget-body">
+		
+								<form class="form-horizontal">
+									
+									<fieldset>
+										<legend>Form Inputan Data Obat</legend>
+
+										<div class="col-md-6">
+										<div class="form-group">
+											<label class="col-md-3 control-label">Kode Obat</label>
+											<div class="col-md-9">
+												<input class="form-control" type="text" disabled="">
+											</div>
+										</div>
+										<div class="form-group">
+											<label class="col-md-3 control-label">Nama Obat</label>
+											<div class="col-md-9">
+												<input class="form-control"  type="text">
+											</div>
+										</div>
+										<div class="form-group">
+											<label class="col-md-3 control-label">Suplier</label>
+											<div class="col-md-9">
+												<select class="form-control" id="suplier">
+													<option>A</option>
+													<option>B</option>
+												</select>
+											</div>
+										</div>
+										<div class="form-group">
+											<label class="col-md-3 control-label">Golongan</label>
+											<div class="col-md-9">
+												<select class="form-control" id="gol">
+													<option>A</option>
+													<option>B</option>
+												</select>
+											</div>
+										</div>
+										<div class="form-group">
+											<label class="col-md-3 control-label">Kategori</label>
+											<div class="col-md-9">
+												<select class="form-control" id="kategori">
+													<option>A</option>
+													<option>B</option>
+												</select>
+											</div>
+										</div>
+
+			
+										</div>
+										<div class="col-md-6">
+
+										<div class="form-group">
+											<label class="col-md-3 control-label">Kandungan</label>
+											<div class="col-md-9">
+												<textarea class="form-control" rows="4"></textarea>
+											</div>
+										</div>
+
+										<div class="form-group">
+											<label class="col-md-3 control-label">Lokasi Etalase</label>
+											<div class="col-md-9">
+												<select class="form-control" id="eetalase">
+													<option>A</option>
+													<option>B</option>
+												</select>
+											</div>
+										</div>
+										<div class="form-group">
+											<label class="col-md-3 control-label">Status</label>
+											<div class="col-md-9">
+												<select class="form-control" id="status">
+													<option>Aktif</option>
+													<option>Non Aktif</option>
+												</select>
+											</div>
+										</div>
+
+										
+									</fieldset>
+									
+									
+									<div class="form-actions">
+										<div class="row">
+											<div class="col-md-12">
+												<button class="btn btn-default" type="submit">
+													Cancel
+												</button>
+												<button class="btn btn-primary" type="submit">
+													<i class="fa fa-save"></i>
+													Submit
+												</button>
+											</div>
+										</div>
+									</div>
+		
+								</form>
+		
+							</div>
+							<!-- end widget content -->
+					</div>
+				</article>
+			</div>
 			<!-- row -->
 			<div class="row">
 		

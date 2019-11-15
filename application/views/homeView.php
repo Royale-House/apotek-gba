@@ -30,7 +30,7 @@
             <div class="row">
                     <div style="margin-top:50px;">
                         <center>
-                            <img src="<?=base_url()?>assets/smartadmin/img/coffee.jpg" width="80%">
+                            <img src="<?=base_url()?>assets/smartadmin/img/" width="80%">
                         </center>
                 </div>
             </div>

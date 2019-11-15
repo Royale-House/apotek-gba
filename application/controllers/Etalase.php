@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class StokEtalase extends CI_Controller {
+class Etalase extends CI_Controller {
 
 	
 	public function index()
@@ -11,7 +11,7 @@ class StokEtalase extends CI_Controller {
         $return = array();
         $data['menu']='Home';
         $data['menuParent']='Stok Etalase';
-        $this->temppage->render('stokEtalaseView',$data);
+        $this->temppage->render('EtalaseView',$data);
 	}
 
 	public function under_construction()

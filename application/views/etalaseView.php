@@ -57,7 +57,115 @@
 							<h2>Data Etalase </h2>
 		
 						</header>
+		<div class="widget-body">
 		
+								<form class="form-horizontal">
+									
+									<fieldset>
+										<legend>Form Inputan Data Etalase</legend>
+
+										<div class="col-md-6">
+										<div class="form-group">
+											<label class="col-md-3 control-label">Kode Obat</label>
+											<div class="col-md-9">
+												<input class="form-control" type="text" disabled="">
+											</div>
+										</div>
+										<div class="form-group">
+											<label class="col-md-3 control-label">Nama Obat</label>
+											<div class="col-md-9">
+												<input class="form-control"  type="text">
+											</div>
+										</div>
+										<div class="form-group">
+											<label class="col-md-3 control-label">Suplier</label>
+											<div class="col-md-9">
+												<select class="form-control" id="suplier">
+													<option>A</option>
+													<option>B</option>
+												</select>
+											</div>
+										</div>
+										<div class="form-group">
+											<label class="col-md-3 control-label">Golongan</label>
+											<div class="col-md-9">
+												<select class="form-control" id="gol">
+													<option>A</option>
+													<option>B</option>
+												</select>
+											</div>
+										</div>
+										<div class="form-group">
+											<label class="col-md-3 control-label">Kategori</label>
+											<div class="col-md-9">
+												<select class="form-control" id="kategori">
+													<option>A</option>
+													<option>B</option>
+												</select>
+											</div>
+										</div>
+
+			
+										</div>
+										<div class="col-md-6">
+
+										<div class="form-group">
+											<label class="col-md-3 control-label">Kandungan</label>
+											<div class="col-md-9">
+												<textarea class="form-control" rows="4"></textarea>
+											</div>
+										</div>
+
+										<div class="form-group">
+											<label class="col-md-3 control-label">Lokasi Etalase</label>
+											<div class="col-md-9">
+												<select class="form-control" id="eetalase">
+													<option>A</option>
+													<option>B</option>
+												</select>
+											</div>
+										</div>
+										<div class="form-group">
+											<label class="col-md-3 control-label">Status</label>
+											<div class="col-md-9">
+												<select class="form-control" id="status">
+													<option>Aktif</option>
+													<option>Non Aktif</option>
+												</select>
+											</div>
+										</div>
+
+										
+									</fieldset>
+									
+									
+									<div class="form-actions">
+										<div class="row">
+											<div class="col-md-12">
+												<button class="btn btn-default" type="submit">
+													Cancel
+												</button>
+												<button class="btn btn-primary" type="submit">
+													<i class="fa fa-save"></i>
+													Submit
+												</button>
+											</div>
+										</div>
+									</div>
+		
+								</form>
+		
+							</div>
+							<!-- end widget content -->
+					</div>
+				</article>
+			</div>
+
+
+
+
+
+
 						<!-- widget div-->
 						<div>
 		
